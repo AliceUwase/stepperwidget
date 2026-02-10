@@ -7,6 +7,7 @@ class StepperScreen extends StatefulWidget {
   State<StepperScreen> createState() => _StepperScreenState();
 }
 
+// keep track of the current step index
 int _currentStep = 0;
 
 class _StepperScreenState extends State<StepperScreen> {
@@ -14,9 +15,12 @@ class _StepperScreenState extends State<StepperScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('Stepper Example')),
+      // Stepper widget to display the steps
       body: Stepper(
-        type: StepperType.horizontal,
+        // type: StepperType.horizontal,
+        // indicates the current step index
         currentStep: _currentStep,
+        // triggered when the user taps the "Continue" button to go to the next step
         onStepContinue: () {
           if (_currentStep < 4) {
             setState(() {
@@ -24,6 +28,7 @@ class _StepperScreenState extends State<StepperScreen> {
             });
           }
         },
+        // triggered when the user taps the "Cancel" button to go back to the previous step
         onStepCancel: () {
           if (_currentStep > 0) {
             setState(() {
@@ -31,6 +36,7 @@ class _StepperScreenState extends State<StepperScreen> {
             });
           }
         },
+        // defines the steps with title, content, and active state
         steps: [
           Step(
             title: Text('Step 1'),
@@ -51,11 +57,6 @@ class _StepperScreenState extends State<StepperScreen> {
             title: Text('Step 4'),
             content: Text('Complete this  fourth step '),
             isActive: _currentStep >= 3,
-          ),
-          Step(
-            title: Text('Step 5'),
-            content: Text('Complete this  fifth step '),
-            isActive: _currentStep >= 4,
           ),
         ],
       ),
