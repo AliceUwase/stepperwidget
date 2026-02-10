@@ -2,7 +2,7 @@
 
 A stepper widget is a Flutter widget that allows you to create a step-by-step interface, ideal for processes that must be broken down into multiple stages.
 
-![Stepper Widget Example](lib\assets\stepper_widget_example.png)
+![Stepper Widget Example](lib/assets/stepper_widget_example.png)
 
 ## Getting Started
 
