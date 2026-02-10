@@ -1,16 +1,25 @@
-# stepperproject
+# stepperwidget
 
-A new Flutter project.
+A Flutter custom stepper widget with increment/decrement buttons and customizable attributes.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Widget Attributes
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The stepper widget supports three main attributes:
+
+- **initialValue**: Sets the starting counter value
+- **step**: Defines the increment/decrement amount per button press
+- **range**: Specifies the minimum and maximum allowed values
+
+## Screenshot
+
+![Stepper Widget UI](screenshots/stepper_widget.png)
+
