@@ -1,7 +1,7 @@
-# stepperwidget
+# Stepper Widget
 
-A Flutter custom stepper widget with increment/decrement buttons and customizable attributes.
-
+A stepper widget is a flutter widget allows you to create a step-by-step interface, ideal for processes that must be broken down into multiple stages.
+ 
 ## Getting Started
 
 To run this project:
@@ -13,13 +13,15 @@ flutter run
 
 ## Widget Attributes
 
-The stepper widget supports three main attributes:
+The stepper widget supports these  attributes:
 
-- **initialValue**: Sets the starting counter value
+- **_currentStep**: Sets the starting counter value
 - **step**: Defines the increment/decrement amount per button press
 - **range**: Specifies the minimum and maximum allowed values
+- **type:**: Defines the type of the stepper, either horizontal or vertical.
 
-## Screenshot
+## Resources
 
-![Stepper Widget UI](screenshots/stepper_widget.png)
-
+Stepper Widget Documentation: (https://api.flutter.dev/flutter/material/Stepper-class.html)
+Stepper Widget Article: (https://blog.aakashpamnani.in/flutter-stepper-widget-in-detail-efb20bc60519)
+Stepper Widget Video: (https://www.youtube.com/watch?v=SnSPcu3svek)
