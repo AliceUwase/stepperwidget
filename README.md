@@ -1,6 +1,6 @@
-# stepperwidget
+# Stepper Widget
 
-A stepper widget is a flutter widget allows you to create a step-by-step interface, ideal for processes that must be broken down into multiple stages...
+A stepper widget is a flutter widget allows you to create a step-by-step interface, ideal for processes that must be broken down into multiple stages.
  
 ## Getting Started
 
@@ -22,6 +22,6 @@ The stepper widget supports these  attributes:
 
 ## Resources
 
-![Stepper Widget Documentation](https://api.flutter.dev/flutter/material/Stepper-class.html)
-![Stepper Widget Article](https://blog.aakashpamnani.in/flutter-stepper-widget-in-detail-efb20bc60519)
-![Stepper Widget Video](https://www.youtube.com/watch?v=SnSPcu3svek)
+Stepper Widget Documentation: (https://api.flutter.dev/flutter/material/Stepper-class.html)
+Stepper Widget Article: (https://blog.aakashpamnani.in/flutter-stepper-widget-in-detail-efb20bc60519)
+Stepper Widget Video: (https://www.youtube.com/watch?v=SnSPcu3svek)
